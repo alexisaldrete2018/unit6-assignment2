@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+}
+
+h1{
+    padding-top: 2%;
+    box-sizing: border-box;
+    height: 10vh;
+    margin: 0;
+    text-align: center;
+}
+
+#list{
+    flex: 5;
+    background-color: cadetblue;
+    min-height: 90vh;
+}
+
+#form{
+    flex: 3;
+    background-color: gainsboro;
+    padding: 2%;
+    min-height: 90vh;
+}
+
+#iImportant{
+    font-size:  32px;
+    cursor: pointer;
+}
+
+.fas{
+    color: rgb(216,17,17);
+}
+
+.far{
+    color: rgb(135,135,135);
+}
+
+#list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
